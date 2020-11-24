@@ -31,7 +31,7 @@ class JeSuisLa{
             anchor: [0.5, 40],
             anchorXUnits: 'fraction',
             anchorYUnits: 'pixels',
-            src: './pointer.png'
+            src: 'https://cdn.jsdelivr.net/gh/starxmaker/je-suis-la@main/pointer.png'
         })
         const iconStyle= new Style({
             image: icon
