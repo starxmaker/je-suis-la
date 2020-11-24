@@ -2,7 +2,7 @@
 
 ("I'm here" in English, pronounced /ʒə sɥi la/)
 
-Je Suis Là is a simple Vanilla JavaScript library powered by OpenLayers and OpenStreetMaps. Its main goal is to quickly generate a map with a fixed pointer, without having to study Geolocation or to pay anything. It's useful for customers who wants a map with their company's location pinned. It's free and you just have to indicate the latitude and longitude (you can easily find those values on OpenStreetMaps in the url bar).
+Je Suis Là is a simple Vanilla JavaScript library powered by OpenLayers and OpenStreetMaps. Its main goal is to quickly generate a map with a fixed pointer and a caption. You just have to indicate the latitude and longitude (you can easily find those values on OpenStreetMaps in the url bar).
 
 [Demo](https://starxmaker.github.io/je-suis-la)
 
