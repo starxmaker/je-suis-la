@@ -16,7 +16,7 @@ Include these files in your HTML. Je Suis Là completely requires OpenLayers in 
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
 
 <!-- import the library -->
-<script src="https://cdn.jsdelivr.net/gh/starxmaker/je-suis-la@main/je-suis-la.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/starxmaker/je-suis-la@1.0/je-suis-la.js" crossorigin="anonymous"></script>
 ```
 
 ## Quick start
