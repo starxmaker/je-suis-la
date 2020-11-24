@@ -39,7 +39,7 @@
   <div class="container">
     
         <h1 class="title"><i class="fas fa-map-marked-alt icono"></i> Je suis là</h1>
-        <p class="introduccion">Je-suis-là ("I'm here" in English, pronounced /ʒə sɥi la/) is a simple Vanilla JavaScript library powered by OpenLayers and OpenStreetMaps. Its main goal is to quickly generate a map with a fixed pointer, without having to study Geolocation. It's useful for customers who want a map with their company's location pinned. It's free and you just have to indicate the latitude and longitude (you can easily find those values on OpenStreetMaps in the url bar).</p>
+        <p class="introduccion">Je-suis-là ("I'm here" in English, pronounced /ʒə sɥi la/) is a simple Vanilla JavaScript library powered by OpenLayers and OpenStreetMaps. Its main goal is to quickly generate a map with a fixed pointer, without having to study Geolocation or to pay anything. It's useful for customers who want a map with their company's location pinned. It's free and you just have to indicate the latitude and longitude (you can easily find those values on OpenStreetMaps).</p>
         <div class="row">
           <div class="col-sm-12 justify-content-center">
             <form>
@@ -63,20 +63,22 @@
             </form>
           </div>
           <div class="col-sm-12">
+                      
             <div id="map" class="map"></div>
           </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
         <script src="./je-suis-la.js"></script>
         <script> 
+            
             window.onload= () =>{
-                new JeSuisLa("map",-29.98130,-71.34999,17)
+                new JeSuisLa("map",-29.98130,-71.34999,17,"Je suis là!", null)
             }
             const refresh=() =>{
               const latitud=document.getElementById("latitud").value
               const longitud=document.getElementById("longitud").value
               const zoom=document.getElementById("zoom").value
-              new JeSuisLa("map",latitud,longitud,zoom)
+              new JeSuisLa("map",latitud,longitud,zoom, "Je suis là!", null)
             }
         </script>
     </div>
